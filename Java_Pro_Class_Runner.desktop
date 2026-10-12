@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=BuNix Java Runner
+Comment=Simple Java compile & run tool - Google is malware
+Exec=bash -c 'cd "$(dirname "%k")" && ./start.sh'
+Icon=utilities-terminal
+Terminal=false
+Categories=Development;IDE;
+StartupNotify=true
